@@ -1,0 +1,18 @@
+div.container_rejestracja {
+    text-align: center;
+    color: white;
+}
+
+div.g-recaptcha {
+    width: 100%;
+    float: left;
+    margin-left: 42%;
+}
+
+div.registry-button {
+    width: 100%;
+}
+
+div.registry-button input {
+    font-size: larger;
+}

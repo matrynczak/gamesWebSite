@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    margin-top: 20px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+div.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    margin-top: -2%;
+    border-bottom: solid;
+    border-bottom-color: darkturquoise;
+}
+
+div.grid {
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 0%;
+}
+
+div.row-1 {
+    width: 90%;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: auto;
+    height: 500px;
+}
+
+div.row-2 {
+    width: 90%;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: auto;
+    height: 500px;
+}
+
+div.col-1 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: auto;
+    display: inline-block;
+    float: left;
+    height: 450px;
+}
+
+div.col-2 {
+    width: 40%;
+    margin-left: 8%;
+    display: inline-block;
+    float: left;
+    border: 2;
+    height: 450px;
+}
+
+div.contact-form {
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    float: left;
+    background-color: purple;
+}
+
+footer.footer {
+    height: 50px;
+    margin-top: 5.4%;
+    margin-bottom: 0%;
+    background: cornsilk;
+    position: absolute;
+    width: 100%;
+}
+
+#login-button {
+    float: right;
+    display: inline-block;
+    margin-right: 0.7%;
+    margin-top: -0.30%;
+}
+
+#registry-button {
+    float: right;
+    display: inline-block;
+    margin-right: 1%;
+    margin-top: 1.78%;
+}
+
+#login-button input {
+    font-size: 20px;
+    background: gainsboro;
+    border-color: darkblue;
+    border-radius: 5px;
+}
+
+#registry-button input {
+    font-size: 20px;
+    background: gainsboro;
+    border-color: darkblue;
+    border-radius: 5px;
+}
+
+#username-input {
+    float: right;
+    display: inline-block;
+    margin-right: 1%;
+    color: white;
+    font-size: 1.2em;
+}
+
+#password-input {
+    float: right;
+    display: inline-block;
+    margin-right: 1%;
+    color: white;
+    font-size: 1.2em;
+    float: right;
+    display: inline-block;
+}
+
+#login-form {
+    width: 55%;
+    float: right;
+    margin-top: 2%;
+}
+
+#logo {
+    display: inline-block;
+    margin-top: 1.05%;
+    width: 20%;
+    height: 60px;
+    color: white;
+    margin-left: 4%;
+    background: url(../images/letsplay.jpg);
+    background-size: 100% 100%;
+}
+
+#logo-text {
+    margin-top: 11%;
+}
+
+#survey-submit-button {
+    display: inline-block;
+    float: right;
+    margin-right: 30%;
+    height: 40px;
+    margin-top: 35px;
+}
+
+#survey-submit-button input {
+    font-size: larger;
+    background: gainsboro;
+    border-color: darkblue;
+    border-radius: 5px;
+}
+
+div.survey-field {
+    width: 40%;
+    height: 90px;
+    display: inline-block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 35px;
+    font-size: large;
+    color: white;
+}
+
+#survey {
+width: 400px;
+height: 80px;
+margin-top: 2px;
+margin-left: 40px;
+}
+
+div.note {
+    width: 100%;
+    float:left;
+    text-align: center;
+    margin-top: 4px;
+}
+
+div.copyright {
+    width: 100%;
+    float:left;
+    text-align: center;
+}
+
+div.movie {
+    width: 80%;
+    height: 80%;
+    margin-left: 9%;
+    border-style: solid;
+    margin-top: 2.5%;
+}
+
+a.game-name {
+    color: cornflowerblue;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.text {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: -1%;
+    text-align: justify;
+    color: white;
+    text-align: justify;
+}
+
+div.main-content {
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+p.logged_message {
+    color: white;
+    float: right;
+    margin-right: 5%;
+    display: inline-block;
+    width: 500px;
+    font-size: x-large;
+    margin-top: auto;
+}
+
+.logout {
+    margin-right: 25px;
+    float: right;
+    font-size: larger;
+    margin-top: auto;
+}
+
+.movie-inactive {
+    background: gray;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: -4%;
+}
+
+.movie-inactive p {
+    text-align: center;
+    padding-top: 40%;
+}
+
+span {
+    color: red;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+div.radios {
+    color: white;
+    margin-top: 0.3%;
+}
